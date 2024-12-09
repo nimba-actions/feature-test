@@ -28,6 +28,7 @@ runs:
   steps:
     - uses: nimba-actions/run-flow-scratch@v1
       with:
+        github-token: "${{ inputs.github-token }}"
         dev-hub-auth-url: "${{ inputs.dev-hub-auth-url }}"
         org-name: "${{ inputs.org-name }}"
         cumulusci-version: "${{ inputs.cumulusci-version }}"
