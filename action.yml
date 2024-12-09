@@ -1,7 +1,7 @@
 name: "Feature Test"
 description: "Create an unmanaged scratch org and run Apex tests"
 inputs:
-  github-token:
+  cci-token:
     description: "Required only if running in a private organization."
     required: false
     default: ""
